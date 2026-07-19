@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>استبيان</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="quiz-container">
+    <h1>مقياس أدنبره - لأعراض اكتئاب مابعد الولادة</h1>
+    <h2 class="subtitle"> Edinburgh Postnatal Depression Scale (EPDS) </h2>
+    <p class="description">لقد أنجبتِ طفلاً منذ فترة ونود أن نعرف كيف تشعرين خلال الأيام السبعة الماضية، وليس فقط اليوم.
+    </p>
+    <form id="quiz-form">
+      <div class="question">
+        <p>1. استطعت الشعور بالفرح والسعادة:</p>
+        <label><input type="radio" name="q1" value="1" /> بالمقدار نفسه الذي استطعتِه من قبل</label>
+        <label><input type="radio" name="q1" value="2" /> بالمقدار نفسه الآن</label>
+        <label><input type="radio" name="q1" value="3" /> ليس بالمقدار نفسه الآن</label>
+        <label><input type="radio" name="q1" value="4" /> كلا مطلقًا</label>
+      </div>
+
+      <div class="question">
+        <p>2. تطلعت إلى الأمور بتشوق:</p>
+        <label><input type="radio" name="q2" value="1" /> بالمقدار نفسه مثل أي وقت مضى</label>
+        <label><input type="radio" name="q2" value="2" /> أقل نوعًا ما مما اعتدت</label>
+        <label><input type="radio" name="q2" value="3" /> أقل بكثير مما اعتدت</label>
+        <label><input type="radio" name="q2" value="4" /> نادرًا</label>
+      </div>
+
+      <div class="question">
+        <p>3. لمت نفسي بدون لزوم عندما سارت الأمور على غير ما يرام:</p>
+        <label><input type="radio" name="q3" value="1" /> نعم، في معظم الأحيان</label>
+        <label><input type="radio" name="q3" value="2" /> نعم، في بعض الأحيان</label>
+        <label><input type="radio" name="q3" value="3" /> ليس في أحوال كثيرة</label>
+        <label><input type="radio" name="q3" value="4" /> كلا، مطلقًا</label>
+      </div>
+
+      <div class="question">
+        <p>4. كنت قلقة ومشغولة البال بدون سبب وجيه:</p>
+        <label><input type="radio" name="q4" value="1" /> كلا، أبدًا</label>
+        <label><input type="radio" name="q4" value="2" /> نادرًا</label>
+        <label><input type="radio" name="q4" value="3" /> نعم، في بعض الأحيان</label>
+        <label><input type="radio" name="q4" value="4" /> نعم، في كثير من الأحيان</label>
+      </div>
+
+      <div class="question">
+        <p>5. شعرت بالخوف والذعر بدون سبب وجيه:</p>
+        <label><input type="radio" name="q5" value="1" /> نعم، في كثير من الأحيان</label>
+        <label><input type="radio" name="q5" value="2" /> نعم، في بعض الأحيان</label>
+        <label><input type="radio" name="q5" value="3" /> كلا، ليس كثيرًا</label>
+        <label><input type="radio" name="q5" value="4" /> كلا، مطلقًا</label>
+      </div>
+
+      <div class="question">
+        <p>6. تراكمت الأعمال عليَّ فلم أستطع القيام بها كلها:</p>
+        <label><input type="radio" name="q6" value="1" /> نعم، في معظم الأحيان لم أستطع القيام بها أبدًا</label>
+        <label><input type="radio" name="q6" value="2" /> نعم، في بعض الأحيان لم أستطع القيام بها كالمعتاد</label>
+        <label><input type="radio" name="q6" value="3" /> كلا، لقد استطعت القيام بها في بعض الأحيان</label>
+        <label><input type="radio" name="q6" value="4" /> كلا، لقد استطعت القيام بها كالمعتاد</label>
+      </div>
+
+      <div class="question">
+        <p>7. كنت تعيسة لدرجة أنني واجهت صعوبة في النوم:</p>
+        <label><input type="radio" name="q7" value="1" /> نعم، في معظم الأحيان</label>
+        <label><input type="radio" name="q7" value="2" /> نعم، في بعض الأحيان</label>
+        <label><input type="radio" name="q7" value="3" /> كلا، ليس كثيرًا</label>
+        <label><input type="radio" name="q7" value="4" /> كلا، أبدًا</label>
+      </div>
+
+      <div class="question">
+        <p>8. شعرت بأنني تعيسة وبائسة:</p>
+        <label><input type="radio" name="q8" value="1" /> نعم، في معظم الأحيان</label>
+        <label><input type="radio" name="q8" value="2" /> نعم، في أحيان كثيرة</label>
+        <label><input type="radio" name="q8" value="3" /> ليس كثيرًا</label>
+        <label><input type="radio" name="q8" value="4" /> كلا، أبدًا</label>
+      </div>
+
+      <div class="question">
+        <p>9. شعرت بالتعاسة لدرجة البكاء:</p>
+        <label><input type="radio" name="q9" value="1" /> نعم، في كثير من الأحيان</label>
+        <label><input type="radio" name="q9" value="2" /> من وقت لآخر فقط</label>
+        <label><input type="radio" name="q9" value="3" /> نادرًا</label>
+        <label><input type="radio" name="q9" value="4" /> كلا، مطلقًا</label>
+      </div>
+
+      <div class="question">
+        <p>10. خطرت لي فكرة إلحاق الأذى بنفسي:</p>
+        <label><input type="radio" name="q10" value="1" /> نعم، في أحيان كثيرة</label>
+        <label><input type="radio" name="q10" value="2" /> أحيانًا</label>
+        <label><input type="radio" name="q10" value="3" /> نادرًا</label>
+        <label><input type="radio" name="q10" value="4" /> كلا، مطلقًا</label>
+      </div>
+
+      <button type="submit">احسب</button>
+    </form>
+
+    <div id="result" class="result">
+
+    </div>
+    <div id="notes" class="notes" hidden>
+      0–9: لا يشير عادةً إلى اكتئاب.
+      <br>
+      <br>
+      10–12: احتمال وجود اكتئاب ويحتاج إلى إعادة التقييم أو المتابعة.
+      <br>
+      <br>
+      13 فأكثر: احتمال مرتفع لاكتئاب ما بعد الولادة ويستلزم تقييمًا من مختص.
+      <br>
+      <br>
+      إذا كانت إجابة السؤال العاشر أي اختيار غير "كلا، مطلقًا" فيجب تقييم الحالة فورًا حتى لو كان المجموع الكلي منخفضًا.
+    </div>
+    <div class="result disclaimer">
+      هذا المقياس مخصص للاستخدام التعليمي فقط. يجب مراجعة نتائج التقييم والتحقق منها قبل الاعتماد عليها، ولا تُغني
+      النتائج عن التقييم السريري للطبيب المختص.
+    </div>
+    <p class="reference">
+      Reference: Cox, J. L., Holden, J. M., & Sagovsky, R. (1987). Detection of postnatal depression: Development of the 10-item Edinburgh Postnatal Depression Scale. British Journal of Psychiatry, 150, 782–786 
+    </p>
+    <div class="result">
+          <p class="dev">Developed by <b><a href="https://www.facebook.com/ZeinabMarouf.11" target="_blank">Zeinab Marouf</a></b></p>
+
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
