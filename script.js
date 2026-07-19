@@ -33,7 +33,7 @@ form.addEventListener("submit", function (event) {
   });
 
   if (answered < questions.length) {
-    result.textContent = "يرجى الإجابة على جميع الأسئلة قبل حساب الدرجة.";
+    result.textContent = "يرجى الإجابة على جميع الأسئلة ";
     notes.hidden = true;
     return;
   }
